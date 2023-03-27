@@ -1,0 +1,78 @@
+
+@keyframes load {
+    from {filter: opacity(0%);}
+    to {filter: opacity(100%);}
+  }
+
+@keyframes bl {
+from {filter:blur(1.5rem);}
+to {filter:blur(0rem);}
+
+}
+
+#back{
+    margin: 3% 15% 5% 15%;
+
+}
+
+
+#ro{
+    background-image: url(h3.png);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    max-width: 8rem;
+    max-height: 8rem;
+    animation-name: bl;
+    animation-duration: 1s;
+    min-height: 8rem;
+    min-width: 8rem;
+
+}
+#ro:hover{
+    filter: brightness(1.2);}
+    
+#pa:hover{
+    filter: brightness(1.2);}
+
+#sc:hover{
+    filter: brightness(1.2);}
+
+#pa{
+    background-image: url(h1.png);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    max-width: 8rem;
+    max-height: 8rem;
+    min-height: 8rem;
+    animation-name: bl;
+    animation-duration: 1s;
+    min-width: 8rem;}
+#sc{
+    background-image: url(h2.png);
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    animation-name: bl;
+    animation-duration: 1s;
+
+    max-width: 8rem;
+    max-height: 8rem;
+    min-height: 8rem;
+    min-width: 8rem;
+
+}
+#compo{
+    border-radius: 100%;
+    max-width: 8rem;
+    max-height: 8rem;
+    min-height: 8rem;
+    min-width: 8rem;
+    background-color: inherit;
+    border: none;
+    border: 0rem;
+    box-shadow:none;
+    animation-name: load;
+    animation-duration: 4s;
+}
+.button:hover{
+    filter: drop-shadow(.5rem .5rem 1rem rgb(10, 10, 9));
+}
